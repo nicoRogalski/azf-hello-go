@@ -2,8 +2,8 @@ package rest
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/nicoRogalski/azf-hello-go/internal/adapter/rest/dto"
-	"github.com/nicoRogalski/azf-hello-go/internal/service"
+	"github.com/rogalni/azf-hello-go/internal/adapter/rest/dto"
+	"github.com/rogalni/azf-hello-go/internal/service"
 )
 
 func HelloHandler(c *fiber.Ctx) error {

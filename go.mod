@@ -1,4 +1,4 @@
-module github.com/nicoRogalski/azf-hello-go
+module github.com/rogalni/azf-hello-go
 
 go 1.17
 

@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/nicoRogalski/azf-hello-go/internal/adapter/rest"
+	"github.com/rogalni/azf-hello-go/internal/adapter/rest"
 )
 
 func main() {
