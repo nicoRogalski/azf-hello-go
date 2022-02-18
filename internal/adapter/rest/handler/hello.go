@@ -1,4 +1,4 @@
-package rest
+package handler
 
 import (
 	"github.com/gofiber/fiber/v2"
@@ -6,7 +6,7 @@ import (
 	"github.com/rogalni/azf-hello-go/internal/service"
 )
 
-func HelloHandler(c *fiber.Ctx) error {
+func GetHello(c *fiber.Ctx) error {
 
 	service := service.NewHelloService()
 	m := service.GetHelloMessage()

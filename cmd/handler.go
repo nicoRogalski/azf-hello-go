@@ -5,13 +5,13 @@ import (
 	"os"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/rogalni/azf-hello-go/internal/adapter/rest"
+	"github.com/rogalni/azf-hello-go/internal/adapter/rest/handler"
 )
 
 func main() {
 	app := fiber.New()
 
-	app.Get("/api/hello", rest.HelloHandler)
+	app.Get("/api/hello", handler.GetHello)
 
 	listenAddr := ":8080"
 	if val, ok := os.LookupEnv("FUNCTIONS_CUSTOMHANDLER_PORT"); ok {
